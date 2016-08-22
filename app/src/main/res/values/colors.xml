@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="select">#447ca1</color>
+    <color name="unselect">#515151</color>
+
+    <color name="newselect">#447ca1</color>
+    <color name="tabunselect">#D1CECD</color>
+
+    <color name="saveselect">#333333</color>
+    <color name="saveunselect">#141414</color>
+
+    <color name="lightpink">#FFC0CB</color>
+    <color name="pink">#ff69b4</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="checkincolor">#327a36</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+
+</resources>

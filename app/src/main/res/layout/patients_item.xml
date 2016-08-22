@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtPname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Andrew Smith"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPname"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+
+            <LinearLayout
+                android:id="@+id/color_boxes_lout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+            <!--
+                            <View
+                                 android:id="@+id/imvSlot"
+                                 android:layout_width="21dp"
+                                 android:layout_height="21dp"
+                                 android:layout_below="@+id/txtPname"
+                                 android:background="@drawable/patient_list_sqr_light_pink"
+                                 android:visibility="gone" />
+
+                                        <View
+                                            android:id="@+id/imvSlotOne"
+                                            android:layout_width="21dp"
+                                            android:layout_height="21dp"
+                                            android:layout_below="@+id/txtPname"
+                                            android:layout_marginLeft="8dp"
+                                            android:background="@drawable/patient_list_sqr_light_pink" />
+
+                                        <View
+                                            android:id="@+id/imvSlotTwo"
+                                            android:layout_width="21dp"
+                                            android:layout_height="21dp"
+                                            android:layout_below="@+id/txtPname"
+                                            android:layout_marginLeft="8dp"
+                                            android:layout_toRightOf="@+id/imvSlotOne"
+                                            android:background="@drawable/patient_list_sqr_dark_pink" />
+
+                                        <View
+                                            android:id="@+id/imvSlotThree"
+                                            android:layout_width="21dp"
+                                            android:layout_height="21dp"
+                                            android:layout_marginLeft="8dp"
+                                            android:layout_toRightOf="@+id/imvSlotTwo"
+                                            android:background="@drawable/patient_list_sqr_yellow" />
+
+                                        <View
+                                            android:id="@+id/imvSlotFour"
+                                            android:layout_width="21dp"
+                                            android:layout_height="21dp"
+                                            android:layout_marginLeft="8dp"
+                                            android:layout_toRightOf="@+id/imvSlotThree"
+                                            android:background="@drawable/patient_list_sqr_blue" />-->
+
+            <!--  <TextView
+                  android:id="@+id/txtSlotprn"
+                  android:layout_width="wrap_content"
+                  android:layout_height="21dp"
+                  android:layout_marginLeft="8dp"
+                  android:background="@drawable/pnr_medi"
+                  android:gravity="center"
+                  android:text="PRN"
+                  android:textSize="15sp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:id="@+id/txtslotwarf"
+                  android:layout_width="wrap_content"
+                  android:layout_height="21dp"
+                  android:layout_marginLeft="8dp"
+                  android:background="@drawable/warfarin"
+                  android:gravity="center"
+                  android:text="WARF"
+                  android:textSize="15sp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:id="@+id/txtslotins"
+                  android:layout_width="wrap_content"
+                  android:layout_height="21dp"
+                  android:layout_marginLeft="8dp"
+                  android:background="@drawable/insulin"
+                  android:gravity="center"
+                  android:text="INS"
+                  android:textSize="15sp"
+                  android:textStyle="bold" />-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/patient_next" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/absent_line_txtvw"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:textColor="#FF0000"
+        android:textSize="14dp"
+       />
+
+
+</LinearLayout>

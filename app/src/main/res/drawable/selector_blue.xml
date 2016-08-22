@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- &lt;!&ndash; disabled state &ndash;&gt;
+     <item android:drawable="@color/blue" android:state_enabled="false" />
+     <item android:drawable="@drawable/patient_list_sqr_blue"/>-->
+
+
+    <item android:drawable="@drawable/patient_list_sqr_blue" android:state_pressed="true" />
+    <!-- pressed -->
+    <item android:drawable="@drawable/patient_list_sqr_blue" android:state_focused="true" />
+    <!-- focused -->
+    <item android:drawable="@color/blue" />
+    <!-- default -->
+
+</selector>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#282828"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Apply ONE patch weekly"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#03b3f3"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Apply ONE patch weekly"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/tabimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:id="@+id/mend_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tabimage"
+            android:padding="6dp"
+            android:text="Do not drink alcohol Warning "
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:text="Indications:"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/indication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Pain"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="Last Taken:"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="Never"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lsttaken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:padding="2dp"
+                android:text="DOSE: 25"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/shwdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:padding="2dp"
+                android:text="DATE: 09-03-2016"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/shwtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:padding="2dp"
+                android:text="TIME: 1:24:11 pm"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/shwuser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:padding="2dp"
+                android:text="USER: Kritika Soni"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" />
+
+            <TextView
+                android:id="@+id/doseText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="Dose"
+                android:textColor="#bcbcbc" />
+        </LinearLayout>
+
+        <!--   <LinearLayout
+               android:id="@+id/llDoseMorng1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:weightSum="1">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="0.4"
+                   android:orientation="horizontal"
+                   android:weightSum="1">
+
+                   <TextView
+                       android:id="@+id/morning1"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_weight="0.3"
+                       android:gravity="center_vertical"
+                       android:text="MORNING 1(07:30)"
+                       android:textColor="#bcbcbc" />
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="0.7"
+                       android:gravity="center"
+                       android:orientation="horizontal"
+                       android:weightSum="1">
+
+                       <View
+                           android:id="@+id/morningone"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp"
+                           android:background="@color/lightpink" />
+                   </LinearLayout>
+               </LinearLayout>
+
+               <TextView
+                   android:id="@+id/dosenum"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="0.6"
+                   android:gravity="center"
+                   android:text="1"
+                   android:textColor="#bcbcbc" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llDoseMorng"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:weightSum="1">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="0.4"
+                   android:orientation="horizontal"
+                   android:weightSum="1">
+
+                   <TextView
+                       android:id="@+id/morning"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_weight="0.3"
+                       android:gravity="center_vertical"
+                       android:text="MORNING 2(08:00)"
+                       android:textColor="#bcbcbc" />
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="0.7"
+                       android:gravity="center"
+                       android:orientation="horizontal"
+                       android:weightSum="1">
+
+                       <View
+                           android:id="@+id/morningClr"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp"
+                           android:background="#ff69b4" />
+                   </LinearLayout>
+               </LinearLayout>
+
+               <TextView
+                   android:id="@+id/dosenumber"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="0.6"
+                   android:gravity="center"
+                   android:text="1"
+                   android:textColor="#bcbcbc" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llDoseLunch"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:weightSum="1">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="0.4"
+                   android:orientation="horizontal"
+                   android:weightSum="1">
+
+                   <TextView
+                       android:id="@+id/lunch"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_weight="0.3"
+                       android:gravity="center_vertical"
+                       android:text="LUNCH(12:00)"
+                       android:textColor="#bcbcbc" />
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="0.7"
+                       android:gravity="center"
+                       android:orientation="horizontal"
+                       android:weightSum="1">
+
+                       <View
+                           android:id="@+id/lunchClr"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp"
+                           android:background="#ffff00" />
+                   </LinearLayout>
+               </LinearLayout>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="0.6"
+                   android:gravity="center"
+                   android:text="1"
+                   android:textColor="#bcbcbc" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/llDoseNight"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:padding="5dp"
+               android:weightSum="1">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="0.4"
+                   android:orientation="horizontal"
+                   android:weightSum="1">
+
+                   <TextView
+                       android:id="@+id/night"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_weight="0.3"
+                       android:gravity="center_vertical"
+                       android:text="NIGHT(20:00)"
+                       android:textColor="#bcbcbc" />
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="0.7"
+                       android:gravity="center"
+                       android:orientation="horizontal"
+                       android:weightSum="1">
+
+                       <View
+                           android:id="@+id/nightClr"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp"
+                           android:background="#0000ff" />
+                   </LinearLayout>
+               </LinearLayout>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="0.6"
+                   android:gravity="center"
+                   android:text="1"
+                   android:textColor="#bcbcbc" />
+           </LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lv_for_dose_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#545454"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtdialogClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Close"
+        android:textColor="#bcbcbc"
+        android:visibility="gone" />
+</LinearLayout>

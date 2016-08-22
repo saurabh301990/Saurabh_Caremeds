@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "711964248084",
+    "firebase_url": "https://caremeds-d8622.firebaseio.com",
+    "project_id": "caremeds-d8622",
+    "storage_bucket": "caremeds-d8622.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711964248084:android:9a411aaeb4223aef",
+        "android_client_info": {
+          "package_name": "com.syscraft.caremeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711964248084-vvd0n0sllufpaksld55ol1jemar2366t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuCmCR8h3HOcAvO8h4estB8VzuszVcSAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
